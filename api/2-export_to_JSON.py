@@ -33,7 +33,6 @@ def export_to_json(employee_id, todos):
     with open(filename, "w") as file:
         json.dump({employee_id: todos}, file)
 
-
 def main(employee_id):
     """
     Main function to fetch user info and TODO list, then export to JSON
